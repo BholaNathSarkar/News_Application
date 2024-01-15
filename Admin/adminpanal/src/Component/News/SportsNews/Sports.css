@@ -1,0 +1,33 @@
+/* Sports.css */
+.center-news-body {
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}
+
+.news-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.news-table th,
+.news-table td {
+  border: 1px solid #000;
+  padding: 8px;
+  text-align: left;
+}
+
+.news-table th {
+  background-color: #f2f2f2;
+}
+.news-table tbody {
+  max-height: 300px; /* Set a max height for the table body */
+  overflow-y: auto; /* Allow the table body to scroll */
+}
+.news-table thead {
+  position: sticky;
+  top: 0; /* Fix the header at the top */
+  background-color: #f0f0f0;
+}
