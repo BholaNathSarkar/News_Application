@@ -1,0 +1,27 @@
+.chat-box {
+  position: fixed;
+  bottom: 130px;
+  right: 1px;
+  width: 250px; /* Adjust the width as needed */
+  height: 200px; /* Adjust the height as needed */
+  background-color: #fff; /* Background color for the chat box */
+  border: 1px solid #ccc; /* Border for the chat box */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* Style for the chat content inside the chat box */
+.chat-content {
+  height: 100%;
+  overflow-y: auto; /* Add a vertical scrollbar when content overflows */
+}
+
+/* Style for the chat input area (if applicable) */
+.chat-input {
+  margin-top: 10px;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}

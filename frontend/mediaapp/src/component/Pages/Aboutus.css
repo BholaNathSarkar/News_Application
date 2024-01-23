@@ -1,0 +1,11 @@
+.locate {
+  height: 300px;
+  width: 200px;
+  letter-spacing: 3px;
+}
+
+.aboutPosition {
+  position: relative; /* Allows the use of right, left, top, and bottom */
+  left: 637px;
+  margin-top: -283px;
+}

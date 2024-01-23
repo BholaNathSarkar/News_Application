@@ -1,0 +1,23 @@
+/* Sports.css */
+.center-news-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+}
+
+.news-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.news-table th,
+.news-table td {
+  border: 1px solid #000;
+  padding: 8px;
+  text-align: left;
+}
+
+.news-table th {
+  background-color: #f2f2f2;
+}
