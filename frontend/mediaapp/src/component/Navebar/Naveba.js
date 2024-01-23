@@ -43,18 +43,18 @@ const Naveba = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
-            <a className="nav-item nav-link active" href="/">
+            <Link className="nav-item nav-link active" to="/">
               Home
-            </a>
-            <a className="nav-item nav-link" href="/sports">
+            </Link>
+            <Link className="nav-item nav-link" to="/sports">
               Sports
-            </a>
-            <a className="nav-item nav-link" href="/aboutus">
+            </Link>
+            <Link className="nav-item nav-link" to="/aboutus">
               AboutUs
-            </a>
-            <a className="nav-item nav-link" href="/connectus">
+            </Link>
+            <Link className="nav-item nav-link" to="/connectus">
               ContactUs
-            </a>
+            </Link>
           </div>
         </div>
       </nav>
